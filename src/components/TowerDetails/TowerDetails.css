@@ -1,0 +1,47 @@
+div.tower_details {
+  position: absolute;
+  left: calc(1200px + 50px);
+  background-color: #0b3c9180;  
+  border: 2px solid #1e90ff;
+  top: 0;
+  padding: 50px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+}
+
+.upgrade_button,
+.delete_button {
+  background-color: #1e90ff; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 5px;
+}
+
+
+.upgrade_button:active {
+  background-color: rgb(0, 56, 0); 
+}
+
+.upgrade_button:hover {
+  background-color: green;
+  transform: scale(1.05); 
+
+}
+.delete_button:hover {
+  background-color: red;
+  transform: scale(1.05); 
+
+}
+
+.delete_button:active {
+    background-color: rgb(56, 0, 35); 
+  }

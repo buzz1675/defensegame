@@ -1,0 +1,31 @@
+.tower_menu {
+    background-color: #0b3c9180; 
+    border: 2px solid #1e90ff;
+  padding: px;
+  border-radius: 10px;
+  margin: auto;
+  gap: 10px;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.tower_button {
+  background-color: #1e90ff; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.tower_button:hover {
+  background-color: #5ba4ff; 
+  transform: scale(1.05); 
+}
+
+.tower_button:active {
+  background-color: #0b3d91; 
+}

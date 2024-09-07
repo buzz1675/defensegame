@@ -1,5 +1,30 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .App {
+  min-height: 100vh;
+  background-color: #001f3f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center; 
   text-align: center;
+}
+
+div.Game{
+  max-width: 2000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+
+  margin: auto; 
+
 }
 
 .App-logo {
